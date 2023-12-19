@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+   flex-shrink: 0; 
+   font-style: normal;
+   line-height: normal;
+   --text-color:color: #000;
+   --font-size:36px;
+   --font-weight: 400;
+   --font-size: 28px; 
+   --background-color: #FFF;
+   --font-family: 'Tourney', sans-serif;
+   --font-family2:'Staatliches', sans-serif;
+   --font-family-header:'Francois One', sans-serif;
+   --font-family3: 'Farro', sans-serif;
+   --font-family-p: 'PT Sans', sans-serif;
+}
+
+body{
+    width: 1440px;
+    background-color: var(--background-color);
+}
+.header{
+    width: 1200px;
+    margin: 0 120px 70px 120px; 
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.eng{
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: 18px;
+
+}
+.header_nav2{
+    padding: 0 600px 0 50px;
+}
+.nav2{
+    color: var(--text-color);
+    font-family:var(--font-family2);
+    font-size: 22px;
+    font-weight: 400px;
+    letter-spacing: 0.66px;
+   
+}
+.title{
+    color:var(--text-color);
+ font-family: var(--font-family-header); 
+font-size: 36px;
+font-weight: 400;
+line-height: 48px; 
+letter-spacing: 1.44px;
+text-transform: uppercase;
+padding-bottom: 40px;
+}
+.sup_title{
+    color:var(--text-color);
+    font-family: var(--font-family3);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 1.2px;   
+}
+
+.chapter1_section{
+    width: 1200px;
+    margin: 0 120px 70px 120px; 
+}
+.under{
+    text-decoration-line: underline; 
+   
+}
+.italik{
+    color:var(--text-color);
+   font-family:var(--font-family-p);
+   font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+}
+.weight{
+    font-weight: 700; 
+}
+.chapter2_section{
+    width: 1200px;
+    margin: 0 120px 70px 120px; 
+}
+.chapter3_section{
+    width: 1200px;
+    margin: 0 120px 70px 120px; 
+}
+.chapter4_section{
+    width: 1200px;  
+    margin: 0 120px 70px 120px; 
+}
+p{
+    font-family: var(--font-family-p);
+    font-size: 28px; 
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 48px;   
+}
+mark {
+    background-color: rgb(181, 180, 184);
+    }
