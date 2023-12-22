@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+   flex-shrink: 0; 
+   font-style: normal;
+   line-height: normal;
+   --text-color:color: #000;
+   --font-size:36px;
+   --font-weight: 400;
+   --font-size: 28px; 
+   
+   --font-family: 'Tourney', sans-serif;
+   --font-family2:'Staatliches', sans-serif;
+   --font-family-header:'Francois One', sans-serif;
+   --font-family3: 'Farro', sans-serif;
+   --font-family-p: 'PT Sans', sans-serif;
+}
+ 
+body{
+    width: 1440px;
+    background-color: var(--background-color);
+}
+.wrapper{
+    background-image: url(../img/bg-picture.png);
+    background-size: ccover;
+    background-position: top ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+.header{
+    width: 1200px;
+    height: 54px;
+    margin: 0 120px 70px 120px; 
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.eng{
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 600px;
+    line-height: 18px;
+    text-decoration: none;
+
+}
+.header_nav2{
+    padding: 0 500px 0 50px;
+    
+}
+.nav2{
+    color: var(--text-color);
+    font-family:var(--font-family2);
+    font-size: 22px;
+    font-weight: 400px;
+    letter-spacing: 0.66px;
+    text-decoration: none;
+   
+}
+.title{
+    color:var(--text-color);
+    font-family: var(--font-family-header); 
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px; 
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h2{
+    padding-bottom: 40px;
+}
+.sup_title{
+    color:var(--text-color);
+    font-family: var(--font-family3);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 1.2px;   
+}
+.aside{
+    max-width: 385px; 
+    position: sticky;
+    top: 10px;
+    padding: 10px;
+    margin: 70px 0 0 120px;
+   
+    
+}
+.aside_navT{
+    display: flex; 
+    margin-bottom: 70px;
+    align-items: flex-start;
+    border-bottom: 1px solid#BDBDBD;
+
+
+}  
+
+.chapter_line{
+    margin-top:20px;
+    border-top:2px solid black;
+    height:8px;
+    width: 100px;
+   margin-left: 500px; 
+  }
+.chapter1_section{
+    width: 785px;
+    margin: 0px 120px 70px 535px; 
+}
+.under{
+    text-decoration-line: underline; 
+   
+}
+.italik{
+    color:var(--text-color);
+   font-family:var(--font-family-p);
+   font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+}
+.weight{
+    font-weight: 700; 
+}
+.chapter2_section{
+    width: 785px;
+    margin: 0 120px 70px 535px; 
+}
+.chapter3_section{
+    width: 785px;
+    margin: 0 120px 70px 535px; 
+}
+.chapter4_section{
+    width: 785px;  
+    margin: 0 120px 70px 535px; 
+}
+p{
+    font-family: var(--font-family-p);
+    font-size: 28px; 
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 48px;   
+}
+mark {
+    background-color: rgb(181, 180, 184);
+    }
+.use{
+    margin: 70px 874px 50px 120px;
+}   
+.container__row1{
+    display: flex;
+  
+    width: 1200px;
+    padding: 20px 0px; 
+    gap: 30px; 
+    /* transition:transform 2s;  background-color:2s 1s; */
+} 
+/* .container__row1:hover{
+    transform: rotateX('-180deg');
+    background-color: #000;
+
+} */
+.chance__row{
+    display: flex;
+    transition:transform 1s;
+    position: relative;
+}
+
+.chance__rowA{
+    position: relative;
+    visibility: visible;
+}
+.chance__rowB{
+    position: absolute;
+    visibility: visible;
+}
+
+.chance__row:hover{
+    transform: rotateX(-360deg);
+    visibility: visible;
+}
+.row1{
+    width: 1200px;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+}
+.row2{
+    width: 1200px;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+}
+.container__row2{
+    display: flex;
+  
+    width: 1200px;
+    padding: 20px 0px; 
+    gap: 30px; 
+}
+#vector{
+    background-color:#E6E6E6;
+}
+.img__row2{
+    position: relative;
+}
+.row__img1{
+    background-color:#E6E6E6 ;
+    
+}
+.row__img2{
+    position: absolute;
+    top:40% ;
+    left: 20%; 
+}
