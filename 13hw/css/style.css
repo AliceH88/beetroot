@@ -159,32 +159,28 @@ mark {
     width: 1200px;
     padding: 20px 0px; 
     gap: 30px; 
-    /* transition:transform 2s;  background-color:2s 1s; */
 } 
-/* .container__row1:hover{
-    transform: rotateX('-180deg');
-    background-color: #000;
 
-} */
 .chance__row{
     display: flex;
-    transition:transform 1s;
+ 
     position: relative;
 }
-
+.chance__row:hover .chance__rowB{
+    transform: rotateX(-360deg);
+    visibility: visible;
+}
 .chance__rowA{
     position: relative;
     visibility: visible;
 }
 .chance__rowB{
     position: absolute;
-    visibility: visible;
+    visibility: hidden;
+    transition:transform 2s;
 }
 
-.chance__row:hover{
-    transform: rotateX(-360deg);
-    visibility: visible;
-}
+
 .row1{
     width: 1200px;
     border-top: 1px solid #BFBFBF;
