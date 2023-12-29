@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    color:#545454;
+    --color-title:#1C1C1C;
+    --font-family: 'Roboto', sans-serif;
+    --color1:#007BFF;
+    flex-shrink: 0;
+    --font-size: 15px; 
+    --font-weight: 400; 
+    --line-height: 22px;
+    --letter-spacing: -0.2px; 
+    --color-text:#545454;
+    --color3:#969696;
+}
+
+.form{
+    background-color: #F7F7F7;;
+    display: flex;
+    width: 1440px;
+    padding: 55px 135px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.rightBlock{
+    width: 570px;
+    height: 590px;
+    background-color: #fff;
+}
+.leftBlock{
+    width: 570px;
+    height: 590px;
+    background-color: #fff;
+    
+}
+
+.form__title{
+     color: var(--color-title); 
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; 
+    margin: 35px 335px 20px 36px;
+    letter-spacing: -0.4px; 
+}
+
+.form__name{
+    display: flex;
+    margin: 0 34px 20px 34px;  
+    gap: 12px;
+}
+
+.form__firstname{
+    width: 245px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid var(--color1); 
+    padding: 7px 10px;
+  
+}
+.form_lastname{
+    width: 245px; 
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    padding: 7px 10px;
+}
+.form__for-email{
+    margin: 7px 35px;
+}
+.form__email{
+    width: 500px;
+    height: 38px;
+    padding: 7px 10px ;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    padding: 7px 10px;
+}
+.form__text{
+color: var(--color-text);
+font-family: var(--font-family);
+font-size: var(--font-size);
+font-weight: var(--font-weight);
+line-height: var(--line-height);
+letter-spacing: var(--letter-spacing);
+}
+.form__text-long{
+    color: var(--color3);
+    font-family: var(--font-family);
+    font-size: 13px; 
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: -0.1px; 
+}
+
+.radio-button{
+    margin-left: 36px;
+}
+.form__living{
+    display: flex;
+    margin: 12px 34px 20px 34px;  
+    gap: 12px;
+}
+.form__countryPlace{
+    width: 245px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    padding: 7px 10px;
+}
+.form_cityPlace{
+    width: 245px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    padding: 7px 10px;
+}
+.form__button{
+    background-color: var(--color1);
+    width: 500px;
+    height: 38px; 
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 0 34px 22px 34px; 
+}
+.form__policy{
+    margin: 0 45px 20px 45px;
+}
+.blue{
+    color: var(--color1);
+}
+.log-in{
+    margin: 0 196px 16px 196px;
+    display: flex;
+    gap: 20px;
+}
+.formLeft__button{
+    background-color: var(--color1);
+    width: 150px;
+    height: 38px; 
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 0 34px 22px 34px; 
+}
+.form__foto{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.formL__button{
+    gap: 10px;
+   margin: 20px 257px 10px 20px;
+
+}
+.formLeft__button1{
+    width: 138px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #E4E4E4;
+    padding-left: 100px;
+}
+.formLeft__button2{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #E4E4E4;
+}
+
+.form__line:before{
+  content: " ";
+  background: #E4E4E4;
+  width: 500px;
+  height: 1px;
+  display: block;
+  margin-left: 35px;
+ 
+}
