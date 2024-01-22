@@ -1,0 +1,96 @@
+.why_us{
+    &__conteiner{
+        max-width: 1920px;
+        display: flex;
+        gap: 62px;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        max-width: 790px;
+        margin-left: 260px;
+        gap: 25px;
+        margin-bottom: 267px;
+    }
+    &__text{
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.785px;
+        text-transform: uppercase;
+    }
+    &__title{
+        color: #FFF;
+     
+        font-family: Poppins,sans-serif;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.5%; /* 60.225px */
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+    }
+    &__span{
+        color: #6D95FC;
+        font-family: Poppins,sans-serif;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.5%;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+    }
+    &__list{
+        margin-top: 80px;
+       
+    }
+    &__ol{
+        list-style-type: none;
+        max-width: 564px;
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 166.5%; 
+        letter-spacing: 0.84px;
+        
+       
+    }
+    &__lii{
+        
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 166.5%;
+        letter-spacing: 0.84px;
+        margin-top: 32px;
+    }
+    &__li{
+       
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 166.5%;
+        letter-spacing: 0.84px;
+    }
+    &__button{
+         margin-top: 45px;
+    }
+    .line4:before{
+        content: " ";
+        background:var(--Main-Blue, #6D95FC);
+        width: 110px;
+        height: 3px;
+        display: block;
+        }
+    
+
+}

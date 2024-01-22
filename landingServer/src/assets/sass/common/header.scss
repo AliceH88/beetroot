@@ -1,0 +1,40 @@
+.header{
+   
+    max-width: 1920px;
+     height: 120px;
+     flex-shrink: 0;
+       &__container{
+        background: linear-gradient(270deg, #101010 8.85%, rgba(16, 16, 16, 0.00) 50%);
+        display: flex;
+      
+       }
+       &__icon{
+         display: flex;
+         flex-direction: column;
+         align-items: center; 
+         max-width: 244px;
+         gap: 3px;
+         margin: 0 246px 0 271px;
+         padding-top: 35px;
+       }
+       &__nav{
+         display: flex;
+         margin-top: 48px;
+         margin-bottom:20px;
+         gap: 17px; 
+         align-items: flex-start; 
+       }
+       &__ahref{
+          color: $color-white;
+          text-decoration: none;
+          font-family: Poppins,sans-serif;
+          
+          font-size: 21px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; 
+          padding: 10px 18px; 
+       }
+ 
+ 
+ }

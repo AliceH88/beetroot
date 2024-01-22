@@ -1,0 +1,107 @@
+.clients{
+    &__conteiner{
+        max-width: 1920px;
+        display: flex;
+       justify-content: center;
+    }
+    &__title{
+        max-width: 751px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title_say{
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.5%; /* 60.225px */
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__clients_say{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 564px;
+        justify-content: center;
+        align-items: center;
+        margin:68px 93px;
+    }
+    &__comment{
+        width: 548px;
+        height: 314px; 
+        border-radius: 38px; 
+        border: 1px solid black;
+        background: linear-gradient(176deg, rgba(17, 24, 42, 0.70) 19.67%, rgba(17, 24, 42, 0.00) 121.51%); 
+        padding: 38px 57px 34px 67px;
+        margin:0 107px 43px 107px;
+
+    }
+    &__com{
+        width: 424px;
+        height: 153px;
+        color: #FFF;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 166.5%; 
+        letter-spacing: 0.84px;
+    }
+    &__name{
+        color: #FFF;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 166.5%; 
+        letter-spacing: 0.84px;
+    }
+    &__mail{
+        color: #6D95FC;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 166.5%; 
+        letter-spacing: 0.56px;
+    }
+    &__button{
+        margin: 0 223px 178px 223px;
+        background-color: black;
+        width: 304px; 
+        padding: 10px 0;
+        border-radius: 2px;
+        border: 3px solid #6D95FC;
+        cursor: pointer;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins,sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.465px;
+        text-transform: uppercase;
+       }
+       &__comments{
+        display: flex;
+       }
+       &__info{
+        margin-right:87px;
+        margin-left: 16px;
+       }
+.line5:before{
+    content: " ";
+    background:var(--Main-Blue, #6D95FC);
+    width: 218px;
+    height: 3px;
+    display: block;
+    }
+
+}

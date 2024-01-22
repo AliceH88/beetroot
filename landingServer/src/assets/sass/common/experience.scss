@@ -1,0 +1,66 @@
+.experience{
+    &__container{
+        background-color: #0000;
+       max-width: 1920px;
+       display: flex;
+       gap: 91px;
+    }
+    &__text{
+        display: flex;
+        width: 589px;
+        height: 493px;
+        padding-bottom: 37px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0; 
+        margin-left: 329px;
+        margin-top: 175px;
+    }
+    &__choise{
+        margin-top: 134px;
+        width: 600px;
+        height: 600px;
+
+        
+       
+    }
+    &__video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-bottom: 2px solid rgb(25, 23, 23);
+       
+        
+    }
+    &__graphic{
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        height: 280px;
+        background: linear-gradient(90deg, rgba(109, 149, 252, 0.35) -346.67%, rgba(21, 21, 21, 0.31) 74.83%);
+        padding:30px 30px;
+        gap: 25px;
+    }
+   
+    &__paragraf{
+        width: 226px;
+        height: 63px;
+        color: #fff;
+    }
+
+
+      
+   
+
+}

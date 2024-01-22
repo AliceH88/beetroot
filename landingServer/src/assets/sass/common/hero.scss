@@ -1,0 +1,87 @@
+.hero{
+
+    &__container{
+     fill: linear-gradient(274deg, rgba(109, 149, 252, 0.26) 6.51%, rgba(109, 149, 252, 0.00) 57.56%);
+     width: 1920px;
+     display: flex;
+     position: relative;
+    }
+    &__description{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         gap: 43px; 
+         position: absolute;
+         width: 819px;
+         margin: 185px 830px 183px 271px;
+         z-index: 1;
+    }
+     &__img{
+         width: 1250px;
+         height: 787px;  
+         left: 761px;
+         margin-top: 40px;
+         position: relative;
+     }
+     &__imgMain{
+         background: lightgray -0.425px 0px / 100.068% 105.956% no-repeat;
+     }
+     
+ 
+ 
+ 
+    &__title{
+     color: #6D95FC;
+     text-align: center;
+     font-family:'Poppins', sans-serif;
+     font-size: 21px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+    }
+ 
+    &__global_title{
+     color: #FFF;
+     font-family: Poppins,sans-serif;
+     font-size: 80px;
+     font-style: normal;
+     font-weight: 700;
+    }
+ 
+    &__span{
+     color: var(--Main-Blue, #6D95FC);
+     font-family: Poppins,sans-serif;
+     font-size: 80px;
+     font-style: normal;
+     font-weight: 700;
+    }
+    
+    &__text{
+     max-width: 697px;
+     color: #FFF;
+     font-family: Poppins,sans-serif;
+     font-size: 21px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: normal;
+    }
+    &__button{
+     background-color: black;
+     width: 175px; 
+     padding: 10px 25px;
+     border-radius: 2px;
+     border: 3px solid #6D95FC;
+     cursor: pointer;
+    }
+    &__ahref{
+     color: #fff;
+    }
+ }
+ .line:before{
+     content: " ";
+     background:var(--Main-Blue, #6D95FC);
+     width: 144px;
+     height: 3px;
+     display: block;
+    
+ }

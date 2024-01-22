@@ -1,0 +1,73 @@
+.get{
+    &__conteiner{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    &__info{
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+        max-width: 589px;
+        margin: 172px 147px  294px;
+    }
+    &__before{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        
+     }  
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: 62px;
+        width: 539px;
+        height: 606px; 
+        border-radius: 34px;
+        border: 2px solid black;
+        background: linear-gradient(180deg, #12192B 0.03%, rgba(18, 25, 43, 0.00) 109.04%);
+        padding: 90px 56px 46px 56px;
+        margin: 134px 351px 129px 37px;
+    }
+    &__text{
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.445px;
+        margin-bottom: 5px;
+    }
+    &__button{
+        width: 188px;
+        padding: 10px 25px;
+        border-radius: 2px;
+        border: none;
+        background: #6D95FC;
+        margin-left: 120px;
+        cursor: pointer;
+    }
+    
+
+}
+#text{
+    width: 426px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: linear-gradient(180deg, #12192B 0.03%, rgba(18, 25, 43, 0.00) 109.04%);
+    margin-bottom: 22px;
+}
+   
+    
+
+#area{
+    width: 426px;
+    height: 178px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background: linear-gradient(180deg, #12192B 0.03%, rgba(18, 25, 43, 0.00) 109.04%);
+    margin-bottom: 10px;
+}

@@ -1,0 +1,49 @@
+.project{
+    &__conteiner{
+        
+       max-width: 1920px;
+    
+    }
+    &__content{
+        display: flex;
+        width: 688px;
+        height: 105px;
+        justify-content: center; 
+        margin: 110px 600px 49px 600px;
+        text-align: center;
+    }
+   
+    &__galery{
+        margin:49px 890px;
+    }
+    &__work_one{
+        margin-bottom: 108px;
+        margin-right: 20px;
+    }
+    &__work_last{
+        margin-bottom: 108px;
+        margin-left: 20px;
+    }
+} 
+.project__line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 360px;
+    margin: 0 770px 49px 770px;
+   
+}
+.project__line::before,
+.project__line::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #fff;
+}
+.project__line:not(:empty)::before {
+    margin-right:17px;
+  }
+  
+.project__line:not(:empty)::after {
+    margin-left:17px;
+  }

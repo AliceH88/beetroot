@@ -1,0 +1,32 @@
+.our_records{
+    &__container{
+        width: 1920px; 
+        height: 360px;
+        background: linear-gradient(274deg, rgba(109, 149, 252, 0.26) 6.51%, rgba(109, 149, 252, 0.00) 78%);
+    }
+    &__row{
+        display: flex;
+        justify-content: center;
+        gap: 194px; 
+        padding-top: 88px;
+       
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 201px;
+        height: 201px;
+      
+    }
+    &__text{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins,sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+       
+    }
+} 

@@ -1,0 +1,23 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+}
+.container__text {
+  margin-top: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */

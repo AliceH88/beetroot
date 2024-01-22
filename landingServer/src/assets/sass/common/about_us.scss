@@ -1,0 +1,59 @@
+.about_us{
+ 
+    &__container{
+       
+        display: flex;
+       
+    }
+    &__img{
+        background: linear-gradient(90deg, #6D95FC -127.55%, rgba(0, 0, 0, 0.35) 77.97%);
+        width: 863px;
+        height: 806px;
+       
+    }
+    &__description{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 26px; 
+        margin: 178px 224px 213px 28px;
+           
+    }
+    &__second_title{
+        color: #FFF;
+        font-family: Poppins,sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+       
+       
+    }   
+    &__span{
+        color: #6D95FC;
+        font-family: Poppins,sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 124.5%;
+        text-transform: capitalize;
+    }
+    &__small_title{
+        color: #6D95FC;
+        text-align: center;
+        font-family: Poppins,sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+       
+    }
+
+}
+.line2:before{
+    content: " ";
+    background: #fff;;
+    width: 97px;
+    height: 3px;
+    display: block;
+   
+}

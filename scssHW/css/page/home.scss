@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+
+      &__text {
+        margin-top: 80px;
+      }
+}
