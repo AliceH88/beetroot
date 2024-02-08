@@ -1,8 +1,7 @@
 // Variables
-@import './variables/media';
-@import './variables/color';
-;
-@import './variables/fonts';
+@import './variables/_media';
+@import './variables/_color';
+@import './variables/_fonts';
 
 // Global Style
 @import './global/resets.scss';
@@ -13,6 +12,9 @@
 @import './common/header.scss';
 @import './common/footer.scss';
 @import './common/form.scss';
+@import './common/pricing.scss';
+@import './common/features.scss';
+@import './common/faq.scss';
 // Common section End
 
 // Components

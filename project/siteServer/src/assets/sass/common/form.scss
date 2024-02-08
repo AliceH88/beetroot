@@ -1,41 +1,260 @@
-.form {
+.hero{
+    background: #FFF;
+    position: relative;
+    &__conteiner{
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        width: 846px;
+        margin: auto;
+    }
+    &__title{
+        color: #172026;
+        text-align: center;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px; 
+    }
+    &__text{
+        color: #36485C;
+        text-align: center;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    &__buttons{
+        margin-left: 250px;
+        display: flex;
+        gap: 40px;
+        cursor: pointer;
+    }
+    &__button{
+        width: 160px;
+        height: 56px;
+        border:none;
+        border-radius: 4px;
+        background: #4328EB;
+        padding: 16px 32px; 
+        cursor: pointer;
+    }
+    &__button_text{
+        color: #FFF; 
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__button_white{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        background:transparent;
+        width: 160px;
+        height: 56px;
+        border:none;
+        
+    }
+    &__button_prescription{
+        color: #4328EB;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+       
+    }
+    &__arrow{
+        width: 28px;
+        height: 28px;
+    }
+}
+.overview{
+    
+    &__white{
+        position: absolute;
+        top:400px;
+        z-index: 10;
+    }
+     &__black{
+       position: absolute;
+       z-index: 20;
+       right: 400px;
+       top:700px;
+       border-radius: 25px;
+    }
+    &__mobile_image{
+        display: none;
+    }
+}
+.truster{
+    background: url(../img/Gradient\ 2\(1\).png) #fff 0px 71.094px / 100% 167.219% no-repeat;
+    position: relative;
+    z-index: -100;
+    height: 1200px;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    gap: 43px;
 
-    &__tilte {
-        font-size: 16px;
-        line-height: 27px;
-        letter-spacing: 0.05em;
-        color: $color-grey-700;
-        display: block;
+    &__text{
+        color: #FFF;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        position: relative;
+    }
+    &__brands{
+        display: flex;
+        margin: auto;
+        display: flex;
+        //align-items: end;
+        gap: 72px;
+        flex-shrink: 0;
+        padding-bottom: 81px;
+        position: relative;
+        top: 450px;
+        align-items: center;
+    }
+    &__brands_line1{
+        display: flex;
+        flex-direction: row;
+        gap: 72px;
+    }
+    &__brands_line2{
+        display: flex;
+        flex-direction: row;
+        gap: 72px;
+    }
+    &__google{
+        width: 103px;
+        height: 62px;
+    }
+    &__slack{
+        width: 132px;
+        height: 62px;
+    }
+    &__trustpilot{
+        width: 178px; 
+        height: 62px;
+    }
+    &__cnn{
+        width: 70px;
+        height: 64px;
+    }
+    &__clutch{
+        width:92px; 
+        height: 64px;
+    }
+}
 
+@media (max-width: 768px){
+    .hero{
+        padding: 16px 20px;
+
+        &__conteiner{
+            width: auto;
+        }
+
+        &__title{
+            color: #172026;
+            text-align: center;
+            font-family: Inter,sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px;
+        }
+
+        &__buttons{
+            margin: auto;
+        }
     }
 
-    &__input {
-        color: $color-grey-500;
-        font-size: 12px;
-        line-height: 20px;
-        letter-spacing: 0.1em;
-        padding: 9px 0;
-        display: block;
+    .overview{
+        display: flex;
+        //justify-content: end;
+        
+        &__mobile_image{
+            display: block;
+            margin-right: 26px;
+            position: absolute;
+            z-index: 10;
+        }
+        &__white{
+            display: none;
+        }
+         &__black{
+            display: none;
+        }
+    }
+    .truster{
+        background: url(../img/Gradient\ 2\(1\).png), #fff 0px 50.708px / 100% -178.736% no-repeat;
         width: 100%;
-        border-bottom: 1px solid $color-black;
-        cursor: pointer;
+        margin: auto;
+        display: flex;
+        position: relative;
+        z-index: -100;
+        height: 570px;
 
-        &:focus {
-            border-bottom: 1px solid blue;
+        &__text{
+            color: #FFF;
+            font-family: Inter,sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
         }
-
-        &:hover {
-            border-bottom: 1px solid green;
+        &__brands{
+            display: flex;
+            margin: auto;
+            display: flex;
+            //align-items: end;
+            gap: 32px;
+            flex-shrink: 0;
+            padding-bottom: 81px;
+            position: relative;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            z-index: 10;
+            top: 300px
         }
-
-        &::placeholder {
-            color: $color-grey-500;
-            font-size: 12px;
-            line-height: 20px;
-            letter-spacing: 0.1em;
+        &__brands_line1{
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+        }
+        &__brands_line2{
+            display: flex;
+            flex-direction: row;
+            gap: 72px;
+        }
+        &__google{
+            width: 80px;
+            height: 48px;
+        }
+        &__slack{
+            width: 102px;
+            height: 48px;
+        }
+        &__trustpilot{
+            width: 137px; 
+            height: 48px;
+        }
+        &__cnn{
+            width: 54px;
+            height: 49px;
+        }
+        &__clutch{
+            width:83px; 
+            height: 49px;
         }
     }
 }

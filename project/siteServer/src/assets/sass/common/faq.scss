@@ -1,0 +1,339 @@
+.faq{
+    background-color: #FFF;
+    &__container{
+        display: flex;
+        gap: 24px;
+        margin-top: 37px;
+        margin-bottom: 60px;
+    }
+    &__text-red{
+        color: #EB2891;
+        font-family: Inter,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__title{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px; 
+    }
+    &__deskription{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    &__text-left{
+        width: 520px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 32px 56px 32px 0;
+    }
+    &__title{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__deskription{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        display: none; 
+    }
+    &__item{
+        width: 737px;
+        display: flex;
+        flex-direction:column;
+        gap: 16px;
+       
+
+    }
+    &__bolt{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__head{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__heading{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    
+    &__button{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+   
+    &__li1{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    &__answer1{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__bolt1{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__deskription1{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        display: none; 
+    }
+    &__img1{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    &__li2{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    &__answer2{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__bolt2{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__deskription2{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        display: none; 
+    }
+    &__img2{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    &__li3{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    &__answer3{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__bolt3{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__deskription3{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        display: none; 
+    }
+    &__img3{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    &__li4{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    &__answer4{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__bolt4{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__deskription4{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        display: none; 
+    }
+    &__img4{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    &__li5{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    &__answer5{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__bolt5{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__deskription5{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        display: none; 
+    }
+    &__img5{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    &__li6{
+        border-radius: 8px;
+        background: #E3F1FF;
+        width: 737px;
+        display: flex;
+        padding: 24px;
+        
+    }
+    &__answer6{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 649px;
+    }
+    &__bolt6{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    &__deskription6{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        display: none; 
+    }
+    &__img6{
+        border: none;
+        background:transparent;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    &__deskription_left{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    
+}
+
+@media (max-width: 768px){
+    .sales{
+        
+    }
+}

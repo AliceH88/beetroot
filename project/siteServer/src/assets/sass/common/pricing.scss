@@ -1,0 +1,403 @@
+.plans{
+    background:#FFF;
+
+    &__title{
+        color: #172026;
+        text-align: center;
+        font-family: Inter,sans-serif;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px; 
+    }
+    &__text{
+        margin-bottom: 64px;
+        color: #36485C;
+        text-align: center;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    &__row{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+    &__free{
+        width: 411px;
+        height: 490px;
+        background: #F5F4FF;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px; 
+       
+    }
+    &__name{
+        color: #4328EB;
+        font-family: Inter,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+    &__description{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        margin-bottom: 32px;
+    }
+
+    &__price{
+        color: #172026;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+        margin-bottom: 32px;
+    }
+    &__mo{
+        color: #5F7896;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+    }
+    &__button-free{
+        border: none;
+        width: 363px;
+        background: #FFFFFF;
+        padding: 14px 30px;
+        margin-top: 112px;
+        border-radius: 4px;   
+         
+
+    }
+    &__button-bs{
+        border: none;
+        width: 363px;
+        background: #FFFFFF;
+        padding: 14px 30px;
+        margin-bottom: 112px;
+        border-radius: 4px; 
+        margin-top: 32px;
+    }
+    &__button-en{
+        border: none;
+        width: 363px;
+        background: #FFFFFF;
+        padding: 14px 30px;
+        border-radius: 4px; 
+    }
+    &__ahref{
+        color: #4328EB;
+        text-align: center;
+        font-family: Inter,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__include{
+        display: flex;
+        flex-direction: column;
+        gap: 16px ;       
+    }
+    &__include_in{
+        color: #36485C;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+    &__include_img{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 16px;
+    }
+    &__business{
+        width: 410px;
+        height: 490px;
+        background:#4328EB ;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px; 
+        
+    }
+    &__name-bs{
+        color: #F4F8FA;
+        font-family: Inter,sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        margin-bottom: 16px;
+    }
+    &__description-bs{
+        color: #F4F8FA;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        margin-bottom: 32px;
+    }
+    &__price-bs{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+        margin-bottom: 32px;
+    }
+    &__include_bs{
+        color: #F4F8FA;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+    &__enterprice{
+        width: 411px;
+        height: 490px;
+        background:#F5F4FF;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px; 
+    }
+    &__description_en{
+        color: #172026;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+        margin-bottom: 32px;
+    }
+    &__enterprice-text{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+    
+
+}
+.join{
+    background: url(..//img/Gradient\ 2.png), lightgray 0px -68.999px / 100% 167.219% no-repeat;
+    background-size: cover;
+    text-align: center;
+    max-width: 1280px;
+    height: 494px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    &__titile{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px;
+        margin-bottom: 48px;
+        margin-top: 89px;
+    }
+    &__text{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        margin-bottom: 56px;
+    }
+    &__buttons{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 89px;
+        align-items: center;
+    }
+    &__button_red{
+        border: none;
+        padding: 16px 32px;
+        border-radius: 4px;
+        background: #FFF;
+        width: 160px;
+        height: 56px;
+    }
+    &__ahref{
+        color: #EB2891;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__button_white{
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+        height: 56px;
+        border: none;
+        padding: 16px 32px;
+        background: transparent;
+    }
+    &__ahref_white{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+   
+}
+
+@media (max-width: 768px){
+    .plans{
+        padding-left: 20px;
+        padding-right: 20px;
+
+        &__conteiner{
+            width: auto;
+            padding:0%
+            
+        }
+        &__title{
+            color: #172026;
+            text-align: center;
+            font-family: Inter,sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px;
+        }
+        &__text{
+            color: #36485C;
+            text-align: center;
+            font-family: Inter,sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+        }
+        &__row{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .join{
+        background: url(..//img/Gradient\ 2.png), #FFF 0px 68.999px / 100% -167.219% no-repeat;
+        background-size: cover;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        width: auto;
+        height: 483px; 
+        border-radius: 8px;
+
+        &__container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        &__titile{
+            color: #FFF;
+            text-align: center;
+            font-family: Inter,sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 40px; /* 125% */
+            margin-top: 57px;
+            margin-bottom: 24px;
+            width: 286px; 
+        }
+        &__text{
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; 
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+        &__buttons{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 89px;
+            flex-direction: column;
+
+            
+        }
+        &__button_red{
+            border: none;
+            padding: 16px 32px;
+            border-radius: 4px;
+            background: #FFF;
+            width: 160px;
+            height: 56px;
+        }
+        &__ahref{
+            color: #EB2891;
+            text-align: center;
+            font-family: Inter,sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+        }
+        &__button_white{
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+            height: 56px;
+            border: none;
+            padding: 16px 32px;
+            background: transparent;
+        }
+        &__ahref_white{
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+}

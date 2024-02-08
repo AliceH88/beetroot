@@ -6,7 +6,7 @@
 
 .home-page {
     &__modal-container {
-        background: $color-moda-bg;
+       // background: $color-moda-bg;
         position: fixed;
         left: 50%;
         top: 50%;
@@ -30,7 +30,7 @@
         max-width: 500px;
         padding: 30px;
         border-radius: 20px;
-        border: 1px solid $color-grey-700;
+     //   border: 1px solid $color-grey-700;
         background-color: $color-white;
         z-index: 100;
         position: relative;
@@ -68,7 +68,7 @@
         cursor: pointer;
 
         &:hover {
-            color: $color-grey-700;
+           // color: $color-grey-700;
         }
     }
 }

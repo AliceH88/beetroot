@@ -1,0 +1,310 @@
+.sales{
+    background-color: #FFF;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 120px;
+    &__section{
+        gap: 24px;
+        margin-top: 66px;
+    }
+    &__simplify{
+        padding: 56px 56px 56px 0;
+        max-width: 572px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    &__about{
+        color: #0085FF;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        margin-bottom: 16px;
+    }
+    &__title{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px; 
+        margin-bottom: 16px;
+    }
+    &__text{
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+    &__button{
+        border: none;
+        width: 138px;
+        height: 76px;
+        padding: 24px 0 24px 0;
+        background: transparent;
+        margin-top: 32px;
+    }
+    &__ahref{
+        color: #0085FF;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__button{
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__simplify_img{
+        margin-top: 56px;
+        max-width: 628px;
+
+    }
+    &__customer_img{
+        max-width: 628px;
+        margin-top: 56px;
+    }
+    &__subscribers_img{
+        margin-top: 56px;
+        max-width: 628px;
+    }
+    &__subscribers_img_mob{
+        display: none;
+    }
+    &__simplify_img_mob{
+        display: none;
+    }
+    &__customer_img_mob{
+        display: none;
+    }
+    &__simplify-get{
+        padding: 56px 0 56px 56px;
+        max-width: 572px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    &__about-get{
+        color: #00A424;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        margin-bottom: 16px;
+    }
+    &__ahref-get{
+        color: #00A424;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__about-growth{
+        color: #EB2891;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+        margin-bottom: 16px;
+    }
+    &__ahref-pink{
+        color: #EB2891;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__monitor{
+        display: flex;
+        gap: 24px;
+    }
+    &__monitor-number{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; 
+    }
+    &__monitor-lorem{
+        color: #5F7896;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+    &__monitor-right{
+        width: 274px;
+    }
+
+}
+.testimonials{
+    background: #F4F8FA;
+    overflow: hidden;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__title{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px; 
+        padding-top: 96px;
+        margin-bottom: 16px;
+    }
+    &__text{
+        color: #36485C;
+        text-align: center;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        margin-bottom: 72px;
+    }
+    &__users{
+        width: 519px;
+        padding: 24px 24px 26px 24px; 
+        border-radius: 16px;
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 16px; 
+    }
+    &__name{
+        color: #172026;
+        font-family: Inter,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__position{
+        color: #5F7896;
+        font-family: Inter,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+    &__coment{
+        overflow: hidden;
+        color: #36485C;
+        text-overflow: ellipsis;
+        font-family: Inter,sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    &__info{
+        display: flex;
+        gap: 16px;
+        align-self: stretch; 
+       
+    }
+    &__personal{
+        margin-right: 16px;
+        width: 319px;
+    }
+    &__first_line{
+        display: flex;
+        gap: 24px;
+        margin-left: -58px;
+    }
+    &__second_line{
+        display: flex;
+        gap: 24px;
+        margin-left: -163px;
+    }
+    &__last_line{
+        display: flex;
+        gap: 24px;
+        margin-left: -58px;
+    }
+    &__container-coment{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 104px;
+    }
+}
+
+@media (min-width: 769px){
+    .sales{
+        &__section{
+            display: flex;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .sales{
+        padding: 0px 20px;
+
+        &__conteiner{
+            width: auto;
+        }
+
+        &__section{
+            margin: 0px;           
+        }
+        &__simplify{
+            padding: 0px;
+        }
+        &__title{
+            width: 100%;
+        }
+        &__customer_img{
+            width: 350px;
+            height: 350px; 
+    
+        }
+        &__simplify_img{
+            display: none;
+        }
+        &__customer_img{
+            display: none;
+        }
+        &__simplify_img_mob{
+            display: block;
+            
+        }
+        &__customer_img_mob{
+            display: block;
+        }
+        &__subscribers_img_mob{
+            display: block;
+        }
+        &__subscribers_img{
+            display: none;
+        }
+    }
+}

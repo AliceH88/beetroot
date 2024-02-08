@@ -1,54 +1,83 @@
-.footer {
-    background-color: $color-grey;
-    padding: 128px 0 141px;
-    margin-top: auto;
-
-    @media (max-width: $tablet) {
-        padding: 64px 0 68px;
+.footer{
+    padding: 120px 80px;
+    
+    &__conteiner{
     }
-
-    &__container {
+    &__logo{
         display: flex;
-        justify-content: space-between;
-
-        @media (max-width: $tablet) {
-            flex-direction: column;
-            gap: 48px;
-        }
+        text-align: center;
+      
     }
-
-    &__title {
-        margin-bottom: 32px;
-
-        @media (max-width: $tablet) {
-            margin-bottom: 18px;
-        }
+    &__title{
+        color: #36485C;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; 
     }
-
-    &__contact {
-        margin-bottom: 16px;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-
-    &__social-row {
+    &__chose{
+        width: 1280px;
         display: flex;
-        flex-direction: column;
+        gap: 297px;
+    }
+    &__row{
+        display: flex;
         gap: 24px;
-    }
-
-    &__content {
+        color: #36485C;
+        font-family: Inter,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+            }
+    &__features{
+        width:192px;
         display: flex;
         flex-direction: column;
+        gap: 32px;
     }
+    &__copyright{
+        margin-top: 104px;
+        display: flex;
+        gap: 732px;
+    }
+    &__text{
+        color: #5F7896;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    &__copyright-row{
+        display: flex;
+        gap: 56px;
+    }
+}
 
-    &__description {
-        align-self: flex-end;
+@media (max-width: 768px){
+    .footer{
+        padding: 80px 20px 20px 40px;
 
-        @media (max-width: $tablet) {
-            align-self: flex-start;
+        &__chose{
+            width: auto;
+            display: flex;
+            gap: 56px;
+            flex-direction: column;
+        }
+        &__row{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__copyright{
+            margin-top: 104px;
+            display: flex;
+            flex-direction: column;
+            gap: 56px;
+            align-items: center;
+            text-align: center;
         }
     }
+
 }
